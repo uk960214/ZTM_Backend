@@ -8,4 +8,5 @@ fs.readFile('./hello.txt', (err, data) => {
 })
 
 const file = fs.readFileSync('./hello.txt')
+
 console.log(file.toString());
